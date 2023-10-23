@@ -7,4 +7,7 @@ edition = "2021"
 
 [dependencies]
 
+tokio = { version = "1.33", features = ["full"] }
+dirs = "5.0"
+sled = "0.34"
 libp2p = { version = "0.52", features = ["full"] }
